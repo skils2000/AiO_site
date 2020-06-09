@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+
 }
 
 img {
@@ -16,41 +17,40 @@ h1,h2,h3,h4,h5,h6 {
     background-image: url(pch/amethyst-oblique-lines.png);
     height: 700PX;
     width: 100%;
-
+    
 }
 
 .head h1{ 
     position: absolute;
     top: 30%;
-    left:29%;
-
+    left:20%;
+    text-shadow: 3px 2px 2px black;
 }
 
 .head h2{
     color: whitesmoke;
     position: absolute;
-    top: 65%;
-    left: 51%;
-    font-size: 40PX;
+    top: 50%;
+    left: 30%;
+    font-size: 38PX;
     text-align: left;
-    width: 30%;
-    font-family: Bradley Hand, cursive;
+    font-family: Bradley Hand;
     font-weight: 100;
 }
 
 h1 {
-    font-size: 100PX;
+    font-size: 150PX;
 }
 
 .midle{
-    background-image: url(pch/amethyst-stairs.png);
+        background-image: url(pch/darkfront.jpg);
     position: relative;
-    height: 500px; 
-
+    height: 100px;
+    background-attachment: fixed;
 }
 
 .late_midle{
-    background-image: url(pch/amethyst-stairs.png);
+    background-image: url(pch/amethyst-oblique-lines.png);
     position: relative;
     height: 100px;
     background-attachment: fixed;
