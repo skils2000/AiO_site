@@ -100,7 +100,8 @@ span{
     font-size: 50px;
 }
 
-.end{   
+.undergr{   
     background-image: url(pch/end.jpg);
-    position: fixed;
+    position: relative;
+    height: 500px;
 }
