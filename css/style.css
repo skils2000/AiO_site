@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .head{
     position: relative;
-    background-image: url(pch/backGRD.jpg);
+    background-image: url(pch/amethyst-oblique-lines.png);
     height: 700PX;
     width: 100%;
 
@@ -43,7 +43,15 @@ h1 {
 }
 
 .midle{
-    background-image: url(pch/22pch.png);
+    background-image: url(pch/amethyst-stairs.png);
     position: relative;
-    height: 1000px;
+    height: 500px; 
+
+}
+
+.late_midle{
+    background-image: url(pch/amethyst-stairs.png);
+    position: relative;
+    height: 100px;
+    background-attachment: fixed;
 }
