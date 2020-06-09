@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.head{
+    position: relative;
+    background-image: url(pch/amethyst-oblique-lines.png);
+    height: 700PX;
+    width: 100%;
+    
+}
+
+.head h1{ 
+    position: absolute;
+    top: 30%;
+    left:20%;
+    text-shadow: 3px 2px 2px black;
+}
+
+.head h2{
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    font-size: 38PX;
+    text-align: left;
+    font-family: Bradley Hand;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 150PX;
+}
+h3 {
+    font-size: 25px;
+}
+
+h4{
+    font-size: 35px;
+}
+
+p{
+    left: 10%;
+    font-size: 20px;
+}
+
+span{
+    position: relarive; 
+    left: 10%; 
+    font-size: 35px;
+    color: purple;
+}
+
+.midle{
+        background-image: url(pch/darkfront.jpg);
+    position: relative;
+    height: 100px;
+    background-attachment: fixed;
+}
+
+.team{
+    background-image: url(pch/backGRD.jpg);
+    position: relative;
+    background-attachment: non-fixed;
+    align-items: center;
+}
+
+.team h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin: 5%;
+}
+
+.team table{
+    position: relative;
+    margin: 0%;
+}
+
+
+.texxxt{
+    font-family: sans-serif;
+    margin: 5%;
+    width: 90%;
+}
+
+.texxxt h3{
+    position: relarive;
+    text-align: left;
+    color: black;
+    font-size: 50px;
+}
+
+.end{   
+    background-image: url(pch/plum-wine-lozenge.png);
+}
