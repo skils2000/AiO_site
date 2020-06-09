@@ -101,5 +101,6 @@ span{
 }
 
 .end{   
-    background-image: url(pch/plum-wine-lozenge.png);
+    background-image: url(pch/end.jpg);
+    position: fixed;
 }
