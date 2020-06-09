@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6 {
     color: whitesmoke;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 31%;
     font-size: 38PX;
     text-align: left;
     font-family: Bradley Hand;
@@ -68,11 +68,22 @@ span{
     background-attachment: fixed;
 }
 
-.late_midle{
-    background-image: url(pch/amethyst-oblique-lines.png);
+.team{
+    background-image: url(pch/backGRD.jpg);
     position: relative;
-    height: 100px;
-    background-attachment: fixed;
+    background-attachment: non-fixed;
+    align-items: center;
+}
+
+.team h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin: 5%;
+}
+
+.team table{
+    position: relative;
+    margin: 0%;
 }
 
 
@@ -87,4 +98,8 @@ span{
     text-align: left;
     color: black;
     font-size: 50px;
+}
+
+.end{   
+    background-image: url(pch/plum-wine-lozenge.png);
 }
