@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.head{
+    position: relative;
+    background-image: url(pch/backGRD.jpg);
+    height: 700PX;
+    width: 100%;
+
+}
+
+.head h1{ 
+    position: absolute;
+    top: 30%;
+    left:29%;
+
+}
+
+.head h2{
+    color: whitesmoke;
+    position: absolute;
+    top: 65%;
+    left: 51%;
+    font-size: 40PX;
+    text-align: left;
+    width: 30%;
+    font-family: Bradley Hand, cursive;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 100PX;
+}
+
+.midle{
+    background-image: url(pch/darkfront.jpg);
+    position: relative;
+    height: 1000px;
+}
