@@ -13,33 +13,42 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .head{
+    background-image: url(pch/backGRD.jpg);
     position: relative;
-    background-image: url(pch/amethyst-oblique-lines.png);
-    height: 700PX;
-    width: 100%;
+    background-attachment: non-fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height: 100vh;
+    text-align: center;
+    justify-content:center;
     
 }
 
 .head h1{ 
-    position: absolute;
+    position: static;
     top: 30%;
     left:20%;
     text-shadow: 3px 2px 2px black;
+    font-family: Vineta BT;
 }
 
 .head h2{
     color: whitesmoke;
-    position: absolute;
+    position: static;
     top: 50%;
     left: 31%;
     font-size: 38PX;
-    text-align: left;
-    font-family: Bradley Hand;
-    font-weight: 100;
+    text-align: right;
+    width: 90%;
+    font-family: Vineta BT;
+    text-shadow: 3px 2px 2px RGB(255,0,255);
 }
 
 h1 {
-    font-size: 150PX;
+    font-size: 130PX;
 }
 h3 {
     font-size: 25px;
