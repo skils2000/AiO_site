@@ -58,7 +58,12 @@ span{
     position: relarive; 
     left: 10%; 
     font-size: 35px;
-    color: purple;
+    color: RGB(255,0,255);
+}
+
+.main{
+    background-image: url(pch/2pchV2.jpg);
+    background-attachment: fixed;
 }
 
 .midle{
@@ -91,12 +96,13 @@ span{
     font-family: sans-serif;
     margin: 5%;
     width: 90%;
+    color: white;
 }
 
 .texxxt h3{
     position: relarive;
     text-align: left;
-    color: black;
+    color: white;
     font-size: 50px;
 }
 
